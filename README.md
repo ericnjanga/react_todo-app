@@ -10,7 +10,8 @@ Below you will find some information on about the project.
   - [Component3](#npm-start)
   - [Component4](#npm-start)
 - [Testing Components](#testing-components)
-  - [Unit Testing](#cunit-testing)
+  - [Unit Testing](#unit-testing)
+  - [UI Testing](#ui-testing)
   - [Possible Issues](#possible-issues)
 - [Folder Structure](#folder-structure)
 - [Available Scripts](#available-scripts)
@@ -129,7 +130,12 @@ We commit to keeping the breaking changes minimal so you can upgrade `react-scri
 
 ### Unit Testing
 
+Unit Testing helps us test component logic (Does it render? Are the inside methods working property?). <br />
 Run `npm test` and [Jest](https://facebook.github.io/jest/) will launch the watch mode and look for every file with `.test.js` or `.spec.js` suffix (even files with `.js` suffix in `__tests__` folders) located at any depth under the `src` top level folder. 
+
+### UI Testing
+
+...
 
 ### Possible Issues
 
