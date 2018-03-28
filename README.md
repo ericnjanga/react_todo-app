@@ -134,8 +134,6 @@ Unit Testing helps us test component logic:
 * Does it render? 
 * Are the inside methods working property?
 
-<br />
-
 Run `npm test` and [Jest](https://facebook.github.io/jest/) will launch the watch mode and look for every file with `.test.js` or `.spec.js` suffix (even files with `.js` suffix in `__tests__` folders) located at any depth under the `src` top level folder. 
 
 ### UI Testing
