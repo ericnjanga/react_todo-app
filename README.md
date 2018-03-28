@@ -2,9 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Below you will find some information on about the project.
 
-## Table of Contents
+## Table of Contents  
 
-- [Updating to New Releases](#updating-to-new-releases)
+- [List Of Components](#list-of-components)
 - [Sending Feedback](#sending-feedback)
 - [Folder Structure](#folder-structure)
 - [Available Scripts](#available-scripts)
@@ -102,7 +102,7 @@ Below you will find some information on about the project.
 - [Alternatives to Ejecting](#alternatives-to-ejecting)
 - [Something Missing?](#something-missing)
 
-## Updating to New Releases
+## List Of Components
 
 Create React App is divided into two packages:
 
