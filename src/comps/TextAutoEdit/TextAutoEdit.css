@@ -1,0 +1,28 @@
+
+
+.TextAutoEdit {
+	position: relative;
+	/*border: 3px solid;*/
+}
+
+.TextAutoEdit__btn-delete {
+	position: absolute;
+	top: 0;
+	right: 6px;
+	background: transparent;
+    color: #dc3545;
+    padding: 0 0.4rem;
+    border-color: transparent;
+    opacity: 0.4;
+}
+
+.TextAutoEdit:hover {
+	background: #d3e1f1;
+}
+.TextAutoEdit:hover .TextAutoEdit__btn-delete {
+    opacity: 1;
+}
+
+.TextAutoEdit__input + .TextAutoEdit__btn-delete {
+	top: 6px;
+}

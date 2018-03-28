@@ -1,0 +1,70 @@
+
+
+.container {
+  margin-top: 50px;
+  max-width: 500px;
+}
+
+
+.todo {
+	border-radius: 10px;
+    overflow: hidden; /* inforces border radius on the whole layout */
+	-webkit-box-shadow: 2px -1px 25px 0px rgba(171,171,171,1);
+	-moz-box-shadow: 2px -1px 25px 0px rgba(171,171,171,1);
+	box-shadow: 2px -1px 25px 0px rgba(171,171,171,1);
+}
+
+.todo__hero {
+	position: relative;
+	min-height: 250px; 
+	background-size: cover;
+    background-position: center 60%;
+	background-image: url(https://images.unsplash.com/photo-1508616987956-0cdacd91ac2f?ixlib=rb-0.3.5…=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9&s=e2b7bea…);
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 15px;
+}
+/*-- Overlay screen to allow a better reading of "title" and "subtitle" --*/
+.todo__hero:after {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+	z-index: 0;
+}
+.todo__hero__title,
+.todo__hero__subtitle {
+	position: relative;
+	z-index: 10;
+	color: #fff;
+}
+.todo__hero__title {
+	font-size: 2rem;
+}
+.todo__hero__subtitle {
+	font-size: 1rem;
+}
+
+.todo__list {
+	margin-bottom: 0;
+} 
+
+.todo__list__item th {
+	width: 50px;
+}
+
+.todo__form {
+	border-top: 1px solid #dee2e6; 
+}
+
+
+.todo__hero,
+.todo__list td,
+.todo__list th,
+.todo__form {
+	padding: 15px;
+}
