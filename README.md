@@ -10,6 +10,7 @@ Below you will find some information on about the project.
   - [Component3](#npm-start)
   - [Component4](#npm-start)
 - [Testing Components](#testing-components)
+  - [Unit Testing](#component-unit-testing)
 - [Folder Structure](#folder-structure)
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
@@ -125,7 +126,9 @@ We commit to keeping the breaking changes minimal so you can upgrade `react-scri
 
 ## Testing Components
 
-We are always open to [your feedback](https://github.com/facebookincubator/create-react-app/issues).
+### Unit Testing
+
+Run `npm test` and [Jest](https://facebook.github.io/jest/) will launch the watch mode and look for every file with `.test.js` or `.spec.js` suffix (even files with `.js` suffix in `__tests__ folders`) located at any depth under the `src` top level folder. 
 
 ## Folder Structure
 
