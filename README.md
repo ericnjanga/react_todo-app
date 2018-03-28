@@ -138,7 +138,12 @@ Run `npm test` and [Jest](https://facebook.github.io/jest/) will launch the watc
 
 ### UI Testing
 
-...
+Unit Testing helps us test component look and behavior in the browser: 
+* Proper rendering
+* User events (and proper response)
+* Browser tests
+
+Run ...
 
 ### Possible Issues
 
