@@ -5,7 +5,11 @@ Below you will find some information on about the project.
 ## Table of Contents  
 
 - [List Of Components](#list-of-components)
-- [Sending Feedback](#sending-feedback)
+  - [TextAutoEdit](#npm-start)
+  - [Component2](#npm-start)
+  - [Component3](#npm-start)
+  - [Component4](#npm-start)
+- [Testing Components](#testing-components)
 - [Folder Structure](#folder-structure)
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
@@ -119,7 +123,7 @@ In most cases bumping the `react-scripts` version in `package.json` and running 
 
 We commit to keeping the breaking changes minimal so you can upgrade `react-scripts` painlessly.
 
-## Sending Feedback
+## Testing Components
 
 We are always open to [your feedback](https://github.com/facebookincubator/create-react-app/issues).
 
