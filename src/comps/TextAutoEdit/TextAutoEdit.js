@@ -63,10 +63,15 @@ class TextAutoEdit extends React.Component {
 	toggleTooltipActivation(value) {
 		const thisNode = ReactDOM.findDOMNode(this),
 			selTooltip = '[data-toggle="tooltip"]'; 
+ 
 		if(value){
-			$(thisNode).find(selTooltip).tooltip();
+			$(this.textLink).tooltip();
+			$(this.btnDel).tooltip();
+			// $(thisNode).find(selTooltip).tooltip();
 		}else{ 
-			$(thisNode).find(selTooltip).tooltip('dispose');
+			$(this.textLink).tooltip('dispose');
+			$(this.btnDel).tooltip('dispose');
+			// $(thisNode).find(selTooltip).tooltip('dispose');
 		}
 	}
 
@@ -118,12 +123,14 @@ class TextAutoEdit extends React.Component {
 				}
 				{ 	//[non edit mode]: Display text as a link
 					!this.state.editMode && <a href="#" onClick={this.handleClick} 
-					data-toggle="tooltip" data-placement="top" data-container="false" title="Click to edit">{value}</a>
+					data-toggle="tooltip" data-placement="top" data-container="false" title="Click to edit" 
+					ref={(link) => this.textLink = link}>{value}</a>
 				}
 
 				<button type="button" className="btn btn-danger TextAutoEdit__btn-delete" 
 				data-toggle="tooltip" data-placement="top" data-container="false" title="Click to delete" 
-				onClick={(event)=>this.compHandleItemDelete(event, index)}>
+				onClick={(event)=>this.compHandleItemDelete(event, index)} 
+					ref={(btn) => this.btnDel = btn}>
 					<i className="fas fa-minus-circle"></i>
 				</button>
 			</div>
