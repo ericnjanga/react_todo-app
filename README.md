@@ -11,6 +11,7 @@ Below you will find some information on about the project.
   - [Component4](#npm-start)
 - [Testing Components](#testing-components)
   - [Unit Testing](#component-unit-testing)
+  - [Possible Issues](#component-unit-testing-issues)
 - [Folder Structure](#folder-structure)
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
@@ -128,7 +129,13 @@ We commit to keeping the breaking changes minimal so you can upgrade `react-scri
 
 ### Unit Testing
 
-Run `npm test` and [Jest](https://facebook.github.io/jest/) will launch the watch mode and look for every file with `.test.js` or `.spec.js` suffix (even files with `.js` suffix in `__tests__ folders`) located at any depth under the `src` top level folder. 
+Run `npm test` and [Jest](https://facebook.github.io/jest/) will launch the watch mode and look for every file with `.test.js` or `.spec.js` suffix (even files with `.js` suffix in `__tests__` folders) located at any depth under the `src` top level folder. 
+
+### Possible Issues
+
+...
+
+
 
 ## Folder Structure
 
